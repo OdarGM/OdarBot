@@ -23,7 +23,7 @@ bot.on("message", async message => {
     let command = messageArray[0];
     let args = messageArray.slice(1);
 
-       let target = message.mentions.users.first() || message.author
+    let target = message.mentions.users.first() || message.author
 
     if(command === `${prefix}userinfo`) {
             let embed = new Discord.RichEmbed()
@@ -93,6 +93,7 @@ bot.on("message", async message => {
 
         return;
     }
+
 });
 
 bot.login(botSettings.token);
