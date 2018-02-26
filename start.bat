@@ -1,0 +1,2 @@
+nodemon bot.js
+pause
