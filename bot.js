@@ -23,21 +23,23 @@ bot.on("message", async message => {
     let command = messageArray[0];
     let args = messageArray.slice(1);
 
-    if(!command.startsWith(prefix)) return;
+       let target = message.mentions.users.first() || message.author
 
     if(command === `${prefix}userinfo`) {
-        let embed = new Discord.RichEmbed()
-            .setAuthor(message.author.username)
-            .setDescription("This the user's info!")
-            .setColor("#00ff00")
-            .addField("Full Username", `${message.author.username}#${message.author.discriminator}`)
-            .addField("ID", message.author.id)
-            .addField("Joined Discord At", message.author.createdAt)
-
-        message.channel.sendEmbed(embed);
-
-        return;
-    }
+            let embed = new Discord.RichEmbed()
+                .setAuthor(message.author.username)
+                .setDescription("This the user's info!")
+                .setColor("#00ff00")
+                .addField("Full Username", 
+    `${message.author.username}#${message.author.discriminator}`)
+                .addField("ID", message.author.id)
+                .addField("Joined Discord At", message.author.createdAt)
+                .setImage(target.displayAvatarURL)
+    
+            message.channel.sendEmbed(embed);
+    
+            return
+        } 
 
     if(command === `${prefix}mute`) {
         if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.sendMessage("You don't have the `Manage Messages` premission")
