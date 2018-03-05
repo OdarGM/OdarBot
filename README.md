@@ -1,0 +1,2 @@
+# OdarBot
+OdarBot Discord JS
