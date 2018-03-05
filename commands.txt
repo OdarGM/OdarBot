@@ -1,0 +1,9 @@
+***__Here are the bot commands and information!__***
+**Information**
+This is OdarBot made by <@291221132256870400>
+
+
+`!invite:` **Gives you invite link for the bot!**
+`!botinfo` **Gives you the bot information!** 
+`!serverinfo` **Gives you the server information**
+`!userinfo` **Command info** __Usage__ *info*
