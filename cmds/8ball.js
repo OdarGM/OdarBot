@@ -4,7 +4,7 @@
 
     //!8ball question
     if(!args[1]) return message.reply("Plesae enter a full question with 2 or more words!");
-    let replies = ["Yes", "No", "I don't know", "Ask again later!", "Cyka", "I am not sure!", "Pls No", "You tell me"];
+    let replies = ["Yes", "No", "I don't know", "Ask again later!", "Cyka", "I am not sure!", "Pls No", "You tell me", "Without a doubt", "Cannot predict now", "Without a doubt", ];
 
     let result = Math.floor((Math.random() * replies.length));
     let question = args.join(" ");
@@ -24,8 +24,5 @@
  }
 
     module.exports.help = {
-        name: "8ball",
-        type: "fun",
-        description: "Ask the bot something!",
-        usage: "!8ball <question>"
+        name: "8ball"
     }
