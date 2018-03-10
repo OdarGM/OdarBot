@@ -65,13 +65,7 @@ bot.on("message", async message => {
         fs.writeFile("./coins.json", JSON.stringify(coins),(err) =>{
             if (err) console.log(err)
         });
-        let cooinEmbed = new Discord.RichEmbed()
-        .setAuthor(message.author.username)
-        .setColor("#00ff00")
-        .addField("💰", `${coinAmt} coins added!`);
 
-        message.channel.send(cooinEmbed).then(msg => {msg.delete(5000)});
-    }
 
     let messageArray = message.content.split(" ");
     let command = messageArray[0];
