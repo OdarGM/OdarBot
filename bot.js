@@ -65,7 +65,8 @@ bot.on("message", async message => {
         fs.writeFile("./coins.json", JSON.stringify(coins),(err) =>{
             if (err) console.log(err)
         });
-
+        
+    }
 
     let messageArray = message.content.split(" ");
     let command = messageArray[0];
