@@ -3,7 +3,8 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const ytdl = require("ytdl-core");
 const request = require("request");
-const coins = require("./coins.json");
+const client = new Discord.Client();
+let coins = require("./coins.json")
 
 const prefix = botSettings.prefix;
 
@@ -29,17 +30,12 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("ready", async () => {
-console.log(`Bots is ready! ${bot.user.username}`);
-console.log(bot.commands);
+console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.users.size} users!`);
 
-bot.on('guildMemberAdd', member => {
-    member.send(`Welcome ${member.user.username} to ${member.guild.name} `);
- });
- 
 
 bot.user.setStatus('Online')
 
-bot.user.setActivity("Odar Army | paypal.me/odar");
+bot.user.setActivity("Odar Army | !help");
 
 try {
     let link = await bot.generateInvite(["ADMINISTRATOR"]);
@@ -61,7 +57,6 @@ bot.on("message", async message => {
 
     let coinAmt = Math.floor(Math.random() * 15) + 1;
     let baseAmt = Math.floor(Math.random() * 15) + 1;
-    console.log(`${coinAmt} ; ${baseAmt}`);
     
     if(coinAmt === baseAmt){
         coins[message.author.id] = {
