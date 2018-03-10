@@ -35,7 +35,7 @@ console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.
 
 bot.user.setStatus('Online')
 
-bot.user.setActivity(`!help | ${bot.guilds.size} `);
+bot.user.setActivity(`!help | ${bot.guilds.size} Servers `);
 
 try {
     let link = await bot.generateInvite(["ADMINISTRATOR"]);
