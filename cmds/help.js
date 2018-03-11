@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
 
     let helpEmbed = new Discord.RichEmbed()
     .setThumbnail(bicon)
-    .setColor("00ff00")
+    .setColor("#00ff00")
     .setTitle("**__Help commands__**")
     .setDescription(commandsList);
     
