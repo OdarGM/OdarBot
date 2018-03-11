@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
 
     let chanEmbed = new Discord.RichEmbed()
     .setTitle("Help")
-    .setColor("#0ff00")
+    .setColor("#00ff00")
     .setFooter(`Help command used by: ${pidor.user.username}`)
     .setDescription(`${pidor} Check your DMs`);
 
