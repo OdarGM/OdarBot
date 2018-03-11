@@ -4,6 +4,7 @@ const fs = require("fs");
 const ytdl = require("ytdl-core");
 const request = require("request");
 const client = new Discord.Client();
+let xp = require("./xp.json");
 let coins = require("./coins.json")
 
 const prefix = botSettings.prefix;
@@ -48,6 +49,33 @@ try {
 bot.on("message", async message => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
+    
+        let xpAdd = Math.floor(Math.random() * 7) + 8;
+  console.log(xpAdd);
+
+  if(!xp[message.author.id]){
+    xp[message.author.id] = {
+      xp: 0,
+      level: 1
+    };
+  }
+
+
+  let curxp = xp[message.author.id].xp;
+  let curlvl = xp[message.author.id].level;
+  let nxtLvl = xp[message.author.id].level * 300;
+  xp[message.author.id].xp =  curxp + xpAdd;
+  if(nxtLvl <= xp[message.author.id].xp){
+    xp[message.author.id].level = curlvl + 1;
+
+    let lvlup = new Discord.RichEmbed()
+    .setTitle("Level Up!")
+    .setColor("#00ff00")
+    .addField("New Level", curlvl + 1);
+
+    message.channel.send(lvlup).then(msg => {msg.delete(5000)});
+  }
+  fs.writeFile("./xp.json", JSON.stringify(xp));
 
     if(!coins[message.author.id]){
         coins[message.author.id] = {
