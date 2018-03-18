@@ -11,10 +11,10 @@ module.exports.run = async (bot, message, args) => {
     .setColor("#00ff00")
     .setThumbnail(bicon)
     .addField("Bot Name", bot.user.username, inline)
-    .addField("Bot Owner", "<@291221132256870400>", inline )
+    .addField("Bot Owner", "<:odar:424890572919013397> <@291221132256870400>", inline )
     .addField("Servers", servsize, inline)
     .addField("Channels", chansize, inline)
-    .addField("Users", usersize, inline)
+    .addField("Users", `<:user:424958082691629057> ${usersize}`, inline)
     .addField("Uptime", uptimxd, inline)
     .addField("Created On", bot.user.createdAt)
     
