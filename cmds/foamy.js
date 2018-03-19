@@ -31,7 +31,17 @@ module.exports.run = async (bot, message, args) => {
             {
               name: "Twitch",
               value: "[foamy23](https://www.twitch.tv/foamy23)",
-              inline: false
+              inline: true
+            },
+            {
+              name: "SoundCloud",
+              value: "[Yungfoamy](https://soundcloud.com/foamy-624057168)",
+              inline: true
+            },
+            {
+              name: "Discord",
+              value: "[Foamy's Freaks](https://discord.gg/nfMQfTA)",
+              inline: true
             }
           ]
         }
