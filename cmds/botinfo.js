@@ -10,13 +10,16 @@ module.exports.run = async (bot, message, args) => {
     let botembed = new Discord.RichEmbed()
     .setColor("#00ff00")
     .setThumbnail(bicon)
-    .addField("Bot Name", bot.user.username, inline)
+    .addField("Bot Name", `<:bot:424913647173894145> ${bot.user.username}`, inline)
     .addField("Bot Owner", "<:odar:424890572919013397> <@291221132256870400>", inline )
-    .addField("Servers", servsize, inline)
-    .addField("Channels", chansize, inline)
+    .addField("Servers", `🛡 ${servsize}`, inline)
+    .addField("Channels", `📁 ${chansize}`, inline)
     .addField("Users", `<:user:424958082691629057> ${usersize}`, inline)
-    .addField("Uptime", uptimxd, inline)
+    .addField("Bot Libary", "<:discordjs:425241283779362816> Discord.js", inline)
+    //.addField("Uptime", uptimxd, inline)
     .addField("Created On", bot.user.createdAt)
+    .setFooter(`Information about: ${bot.user.username}. Coded by: Odar`)
+    .setTimestamp()
     
     message.channel.send(botembed);
 
