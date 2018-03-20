@@ -13,11 +13,17 @@
 `!userinfo` **Gives you the user info** __Usage__: *!userinfo [@user]*
 `!serverinfo` **Gives you the server info** __Usage__: *!serverinfo*
 `!finduser`  **Finds users with this name** __Usage__: *!finduser <name>*
-`!contact` **Contact the owner for help or report bug!** __Usage__: *!contact <problem>*
-`!contributors`**Shows you the bot contributors!** __Usage__: *!contributors` 
+`!contact` **Contact the owner for help or report bug!** __Usage__: *!finduser <problem>*
+`!contributors**Shows you the bot contributors!** __Usage__: *!contributors` 
 `!owner` **Makes someone Server Owner ** __Usage__: *!owner <@user>* 
 `!hastebin` **Upload code to hastebin** __Usage__: *!hastebin <code/text>* 
 `!unicode` **Gives you the symbol's unicode** __Usage__: *!unicode <symbol>*
+`!clap` **Makes a text with the :clap:** __Usage__: *!calp <text>*
+`!flip` **Flip a text upsidedown** __Usage__: *!flip <text>*
+`!year` **Show the info about 1 year** __Usage__: *!year*
+`!mock` **Mocks some text** __Usage__: *!mock <text>*
+`!urban` **Get the defintion of something** __Usage__: *!urban <word>*
+`!translate` **Translate somthing in other languange` __Usage__: *!translate <language> <word>*
 
 **ADMIN/MOD COMMANDS**
 `!addrole` **Gives someone a role** __Usage__: *!addrole <@user> <role>*
