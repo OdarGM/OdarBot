@@ -19,12 +19,12 @@ module.exports.run = async (bot, message, args) => {
     .addField("ID", message.guild.id, inline)
     .addField("Onwer", message.guild.owner, inline)
     .addField("Region", message.guild.region, inline)
-    .addField("Verification Level",`${verlvl[message.guild.verificationLevel]}`,inline)
+    .addField("Verification Level", verlvl[message.guild.verificationLevel],inline)
     .addField("Members", `<:user:424958082691629057> ${message.guild.memberCount}`, inline)
     .addField("Roles", message.guild.roles.size, inline)
     .addField("Channels", message.guild.channels.size, inline)
     .addField("You Joined", message.member.joinedAt)
-    .setFooter(`Created ${message.guild.createdAt}`)
+    .setFooter(`Created ${message.guild.createdAt}`);
 
     message.channel.send(serverembed);
 
