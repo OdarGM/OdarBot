@@ -4,7 +4,6 @@ const fs = require("fs");
 const ytdl = require("ytdl-core");
 const request = require("request");
 const client = new Discord.Client();
-let coins = require("./coins.json")
 
 const prefix = botSettings.prefix;
 
@@ -49,23 +48,7 @@ bot.on("message", async message => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
     
-    if(!coins[message.author.id]){
-        coins[message.author.id] = {
-            coins: 0
-        };
-    }
-
-    let coinAmt = Math.floor(Math.random() * 15) + 1;
-    let baseAmt = Math.floor(Math.random() * 15) + 1;
-    
-    if(coinAmt === baseAmt){
-        coins[message.author.id] = {
-            coins: coins[message.author.id].coins + coinAmt
-        };
-        fs.writeFile("./coins.json", JSON.stringify(coins),(err) =>{
-            if (err) console.log(err)
-        });
-        
+       
     }
 
     let messageArray = message.content.split(" ");
