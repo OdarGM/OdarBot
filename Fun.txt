@@ -1,0 +1,14 @@
+`!say` **Say something trough the bot!** __Usage__: *!say <message>*
+`!8ball` **Ask the bot something** __Usage__: *!8ball <question>*
+`!gif` **Searchs gif on giphy** __Usage__: *!gif <word>*
+`!weather` **Shows the weather in a place** __Usage__: *!weather <place> [country]*
+`!vote` **Make vote about something** __Usage__: *!vote <something>
+`!owner` **Makes someone Server Owner ** __Usage__: *!owner <@user>* 
+`!hastebin` **Upload code to hastebin** __Usage__: *!hastebin <code/text>* 
+`!unicode` **Gives you the symbol's unicode** __Usage__: *!unicode <symbol>*
+`!clap` **Makes a text with the :clap:** __Usage__: *!calp <text>*
+`!flip` **Flip a text upsidedown** __Usage__: *!flip <text>*
+`!year` **Show the info about 1 year** __Usage__: *!year*
+`!mock` **Mocks some text** __Usage__: *!mock <text>*
+`!urban` **Get the defintion of something** __Usage__: *!urban <word>*
+`!translate` **Translate somthing in other languange** __Usage__: *!translate <language> <word>*

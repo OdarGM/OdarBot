@@ -1,0 +1,11 @@
+`!ping` **Check the bot ping** __Usage__: *!ping*
+`!id` **Gives you the id of user** __Usage__: *!id [@user]
+`!invite` **Gives you invite for the bot** __Usage__: *!invite*
+`!avatar` **Gives you someone's avatar** __Usage__: *!avatar [@user]*
+`!icon` **Gives you the server icon** __Usage__: *!icon*
+`!botinfo` **Gives the bot info** __Usage__: *!botinfo*
+`!userinfo` **Gives you the user info** __Usage__: *!userinfo [@user]*
+`!serverinfo` **Gives you the server info** __Usage__: *!serverinfo*
+`!contact` **Contact the owner for help or report bug!** __Usage__: *!finduser <problem>*
+`!contributors**Shows you the bot contributors!** __Usage__: *!contributors`
+`!finduser`  **Finds users with this name** __Usage__: *!finduser <name>*
