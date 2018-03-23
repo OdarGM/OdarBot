@@ -6,7 +6,7 @@
   "author": "Odar",
   "license": "ISC",
   "dependencies": {
-    "node": "^9.6.1"
+    "node": "^9.6.1",
     "axios": "^0.18.0",
     "bluebird": "^3.5.1",
     "bot-emoji": "^1.0.3",
