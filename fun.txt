@@ -12,3 +12,4 @@
 `!mock` **Mocks some text** __Usage__: *!mock <text>*
 `!urban` **Get the defintion of something** __Usage__: *!urban <word>*
 `!translate` **Translate somthing in other languange** __Usage__: *!translate <language> <word>*
+`!google` **Google something** __Usage__: *!google <argument>*
