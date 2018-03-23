@@ -34,6 +34,8 @@
     "superagent-suffix": "^0.1.0",
     "weather-js": "^2.0.0",
     "ytdl": "^0.10.0",
-    "ytdl-core": "^0.20.2"
+    "ytdl-core": "^0.20.2",
+    "querystring": "^0.2.0",
+    "cheerio": "^1.0.0-rc.2"
   }
 }
