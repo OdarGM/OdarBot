@@ -9,15 +9,37 @@ module.exports.run = async (bot, message, args) => {
     let bicon = bot.user.displayAvatarURL;
     const pidor = message.guild.members.get(args[0]) || message.member;
 
-    let helpEmbed = new Discord.RichEmbed()
-    .setThumbnail(bicon)
+    let funEmbed = new Discord.RichEmbed()
     .setColor("00ff00")
-    .setTitle("**__Help commands__**")
-    .addField("Fun Commands", funcommands)
-    .addField("Info Commands", infoList)
-    .addField("Moderator Commands", adminCommands)
+    .setTitle("**__Fun commands__**")
+    .setDescription(funcommands)
     
-    pidor.send(helpEmbed);
+    pidor.send(funEmbed);
+
+    let infoEmbed = new Discord.RichEmbed()
+    .setColor("00ff00")
+    .setTitle("**__Info commands__**")
+    .setDescription(infoList)
+
+    pidor.send(infoEmbed);
+
+    let modembed = new Discord.RichEmbed()
+    .setColor("00ff00")
+    .setTitle("**__Admin commands__**")
+    .setDescription(adminCommands)
+    
+    pidor.send(modembed);
+
+    let supEmbed = new Discord.RichEmbed()
+    .setColor("#00ff00")
+    .setTitle("Support")
+    .setImage("https://cdn.discordapp.com/avatars/291221132256870400/4f71fea454b62405b55f2fe0d8e7db0c.png?size=2048")
+    .setDescription("If you need help with something feel free to join the [Support Server](https://discord.gg/zvvasbc)")
+    .setFooter("<> means required, [] means optional")
+    .setTimestamp()
+    .addField("Contact", "To contact with the owner use `!contact`")
+
+    pidor.send(supEmbed)
 
     let chanEmbed = new Discord.RichEmbed()
     .setTitle("Help")
