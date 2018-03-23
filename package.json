@@ -5,7 +5,7 @@
   "main": "bot.js",
   "author": "Odar",
   "license": "ISC",
-  "node": "^9.6.1"
+  "node": "^9.6.1",
   "dependencies": {
     "axios": "^0.18.0",
     "bluebird": "^3.5.1",
