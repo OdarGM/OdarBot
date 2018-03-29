@@ -12,3 +12,11 @@
 `!mock` **Mocks some text** __Usage__: *!mock <text>*
 `!urban` **Get the defintion of something** __Usage__: *!urban <word>*
 `!translate` **Translate somthing in other languange** __Usage__: *!translate <language> <word>*
+`!cat` **Shows a random cat pic** __Usage__: *!cat*
+`!pi` **Show Info about Pi __Usage__: *!pi*
+`!rate` **Rate someone** __Usage__: *!rate <@user>*
+`!pepe` **Shows pepe** __Usage__: *!pepe*
+`!shrug` **Shrugs** __Usage__: *!shrug*
+`!lenny` **Shows lenny face** __Usage__: *!lenny*
+`!megusta` **Shows megusta** __Usage__: *!megusta* 
+`!sumfuk` **You want sum fuk?** __Usage__: * !sumfuk [@user]*
