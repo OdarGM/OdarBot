@@ -12,6 +12,7 @@
     "discord.js": "^11.3.2",
     "discord.js-commando": "^0.9.0",
     "ffmpeg": "0.0.4",
+    "domhandler": "^2.4.1",
     "giphy-api": "^1.2.7",
     "fs": "0.0.1-security",
     "google-translate-api": "^2.3.0",
