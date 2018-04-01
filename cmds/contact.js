@@ -1,6 +1,14 @@
 const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
+  if(args[0] == "help"){
+    let helpembxd = new Discord.RichEmbed()
+    .setColor("#00ff00")
+    .addField("Contact Command", "Usage: !Contact <reason>")
+
+    message.channel.send(helpembxd);
+    return;
+  } 
 
     let Invite = await message.guild.channels.first().createInvite()
     let Sender = message.author;
@@ -8,16 +16,14 @@ module.exports.run = async (bot, message, args) => {
     if(!sayMessage) return message.reply("Please give us reason for contacting").then(msg => {msg.delete(5000)});
 
    let contact = new Discord.RichEmbed()
-   .setAuthor(Sender.tag)
    .setColor("00ff00")
    .setThumbnail(Sender.displayAvatarURL)
-   .setDescription(`Contact message from ${message.guild.name}`)
+   .setDescription(`Contact message from [${message.guild.name}](${Invite.url})`)
    .setTitle("Message from contact command!")
-   .addField("Full Username", 
-    `${Sender.username}#${Sender.discriminator}`)
-   .addField("User ID: ", Sender.id)
-   .addField("Here is the message", sayMessage)
-   .addField("Invite", Invite.url)
+   .addField("User", Sender, true)
+   .addField("User ID: ", Sender.id, true)
+   .addField("Message: ", sayMessage)
+   .setTimestamp()
 
     bot.users.get("291221132256870400").send(contact);
 
