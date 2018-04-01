@@ -66,12 +66,12 @@
 * `!addrole` **Gives someone a role** _Usage_: *!addrole <@user> <role>*
 * `!removerole` **Removes someone's role** _Usage_: *!removerole <@user> <role>*
 * `!mute` **Mutes a user** _Usage_: *!mute <@user> <time>*
-* `!unmute` ** Unmutes a user** _Usage_: *!unmute <@user>*
+* `!unmute` **Unmutes a user** _Usage_: *!unmute <@user>*
 * `!kick` **Kicks a user from the server** _Usage_: *!kick <@user> <reason>*
 * `!ban` **Bans a user from the server** _Usage_: *!ban <@user> <reason>*
 * `!clear` **Clears the chat** _Usage_: *!clear <amount>*
 * `!warn` **Warn someone** _Usage_: *!warn <@user> <reason>*
-
+  
 #### Version
 
 *  0.1.8
