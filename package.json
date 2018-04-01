@@ -17,6 +17,7 @@
     "google-translate-api": "^2.3.0",
     "got": "^8.3.0",
     "cows": "^1.1.0",
+    "cheerio": "^1.0.0-rc.2",
     "random-number": "0.0.9",
     "imdb-api": "^3.1.2",
     "fortnite": "^3.0.0",
