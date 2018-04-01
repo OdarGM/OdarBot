@@ -38,6 +38,7 @@
     "snekfetch": "^3.6.4",
     "steamrep": "^1.0.1",
     "superagent": "^3.8.2",
+    "htmlparser2": "^3.9.2",
     "sylphy": "^0.4.5",
     "urban": "^0.3.1",
     "superagent-suffix": "^0.1.0",
