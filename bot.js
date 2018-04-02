@@ -51,9 +51,7 @@ bot.on("message", async message => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
     
-    setInterval(() => {
-        dbl.postStats(client.guilds.size);
-    }, 1800000);
+
     
 
     let messageArray = message.content.split(" ");
