@@ -46,7 +46,6 @@ try {
         }
 });
 
-dbl.bind(client)
 
 bot.on("message", async message => {
     if(message.author.bot) return;
