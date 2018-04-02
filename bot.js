@@ -46,11 +46,12 @@ try {
         }
 });
 
+dbl.bind(client)
+
 bot.on("message", async message => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
     
-   dbl.bind(bot);
 
     let messageArray = message.content.split(" ");
     let command = messageArray[0];
