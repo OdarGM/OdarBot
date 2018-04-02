@@ -5,7 +5,7 @@ const ytdl = require("ytdl-core");
 const request = require("request");
 const client = new Discord.Client();
 const DBL = require("dblapi.js");
-const dbl = new DBL(process.env.dblapi, bot);
+const dbl = new DBL(process.env.dblapi, client);
 
 const prefix = botSettings.prefix;
 
