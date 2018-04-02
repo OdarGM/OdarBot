@@ -50,9 +50,7 @@ bot.on("message", async message => {
     if(message.author.bot) return;
     if(message.channel.type === "dm") return;
     
-    setInterval(() => {
-        dbl.postStats(client.guilds.size);
-    }, 1800000);
+   dbl.bind(bot);
 
     let messageArray = message.content.split(" ");
     let command = messageArray[0];
