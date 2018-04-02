@@ -1,4 +1,5 @@
 {
     "token": "token",
-    "prefix": "!"
+    "prefix": "!",
+    "dblapi": "dblapi"
 }
