@@ -37,7 +37,8 @@ bot.user.setStatus('Online')
 
 bot.user.setActivity(`in ${bot.guilds.size} Servers | !help`);
     
-    client.on('ready', () => {
+    client.on('ready', async () => {
+
 
 try {
     let link = await bot.generateInvite(["ADMINISTRATOR"]);
