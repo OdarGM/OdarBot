@@ -31,18 +31,12 @@ fs.readdir("./cmds", (err, files) => {
 
 bot.on("ready", async () => {
 console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.users.size} users!`);
- });
+ 
 
 bot.user.setStatus('Online')
 
 bot.user.setActivity(`in ${bot.guilds.size} Servers | !help`);
     
-    client.on('ready', async () => {
-        
-         setInterval(() => {
-        dbl.postStats(client.guilds.size);
-    }, 1800000);
-
 
 try {
     let link = await bot.generateInvite(["ADMINISTRATOR"]);
