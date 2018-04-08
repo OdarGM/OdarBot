@@ -5,6 +5,8 @@ const ytdl = require("ytdl-core");
 const request = require("request");
 const client = new Discord.Client();
 const prefix = botSettings.prefix;
+const DBL = require("dblapi.js");
+const dbl = new DBL(process.env.dblapi, client);
 
 const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
@@ -34,6 +36,11 @@ console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.
 bot.user.setStatus('Online')
 
 bot.user.setActivity(`in ${bot.guilds.size} Servers | !help`);
+    
+    client.on('ready', () => {
+    setInterval(() => {
+        dbl.postStats(client.guilds.size);
+    }, 1800000);
 
 try {
     let link = await bot.generateInvite(["ADMINISTRATOR"]);
