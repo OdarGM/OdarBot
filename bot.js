@@ -38,6 +38,10 @@ bot.user.setStatus('Online')
 bot.user.setActivity(`in ${bot.guilds.size} Servers | !help`);
     
     client.on('ready', async () => {
+        
+         setInterval(() => {
+        dbl.postStats(client.guilds.size);
+    }, 1800000);
 
 
 try {
@@ -46,10 +50,6 @@ try {
     } catch(e) {
         console.log(e.stack);
         }
-        
-            setInterval(() => {
-        dbl.postStats(client.guilds.size);
-    }, 1800000);
 });
     
     
