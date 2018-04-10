@@ -41,6 +41,7 @@
 * `!dog` **Sends random doggo** _Usage_: *!dog*
 * `!cat` **Sends random cat** _Usage_: *!cat*
 * `!google` **Google something** _Usage_: *!google <term>*
+* `morse` **Translate something into morse code** _Usage_: *!morse <word>*
 ----
 
 ## Info
@@ -59,6 +60,7 @@
 * `!steamrep` **Shows Steam Rep info about user** _Usage_: *!steamrep <SteamID64>*
 * `!fortnite` **Shows Fortnite info about player** _Usage_: *!fortnite <Nickname>*
 * `!imdb` **Shows info about move from IMDB** _Usage_: *!imdb <movie>*
+* `!roleinfo` **Shows roleinfo** _Usage_: *!roleinfo <role>*
 ----
 
 ## Moderation
@@ -74,8 +76,8 @@
   
 #### Version
 
-*  0.1.8
+*  0.2.0
 
 #### Last Updated
 
-* 1/4/2018
+* 10/4/2018
