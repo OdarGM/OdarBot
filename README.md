@@ -41,7 +41,7 @@
 * `!dog` **Sends random doggo** _Usage_: *!dog*
 * `!cat` **Sends random cat** _Usage_: *!cat*
 * `!google` **Google something** _Usage_: *!google <term>*
-* `morse` **Translate something into morse code** _Usage_: *!morse <word>*
+* `!morse` **Translate something into morse code** _Usage_: *!morse <word>*
 ----
 
 ## Info
