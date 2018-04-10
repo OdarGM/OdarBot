@@ -6,8 +6,8 @@ module.exports.run = async (bot, message, args) => {
   //!mute @user 1s/m/h/d
 
   let tomute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
-  if(!tomute) return message.reply("Couldn't find user.");
-  if(tomute.hasPermission("MANAGE_MESSAGES")) return message.reply("Sorry, you don't have permissions to use this!");
+  if(!tomute) return message.channel.send("Please tag user to mute!");
+  if(tomute.hasPermission("MANAGE_MESSAGES")) return message.channel.send("Sorry, you don't have permissions to use this!");
   if (tomute.id === message.author.id) return message.channel.send("You cannot mute yourself!");
   let muterole = message.guild.roles.find(`name`, "Odar Mute");
 
@@ -30,7 +30,7 @@ module.exports.run = async (bot, message, args) => {
   }
 
   let mutetime = args[1];
-  if(!mutetime) return message.reply("You didn't specify a time!");
+  if(!mutetime) return message.channel.send("You didn't specify a time!");
 
   await(tomute.addRole(muterole.id));
   message.reply(`<@${tomute.id}> has been muted for ${ms(ms(mutetime))}`);
