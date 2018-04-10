@@ -53,16 +53,10 @@ exports.run = async (bot, msg, args) => {
         return await msg.channel.send("Sorry, I didn't found any results");
     }
     
-    const firstentry = `[${results[0].text}](${results[0].link})`;
-    const resultxD = results.slice(0, 3).map(r => `[${r.text}](${r.link})`).join('\n');
+    const firstentry = `${results[0].link}`;
+    const resultxD = results.slice(0, 1).map(r => `${r.link}`).join('\n');
 
-    const smthemb = new Discord.RichEmbed()
-    .setColor("#00ff00")
-    .setTitle(`Top 3 Results:`)
-    .setDescription(resultxD)
-    .setTimestamp()
-
-    await msg.channel.send('', smthemb);
+    await msg.channel.send(resultxD);
 
 };
 
