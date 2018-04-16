@@ -1,3 +1,7 @@
+
+[![Discord](https://img.shields.io/discord/298762167388471296.svg)](https://discord.gg/zvvasbc )  [![Discord Bots](https://discordbots.org/api/widget/status/417345362496585728.svg)](https://discordbots.org/bot/417345362496585728)  [![Discord Bots](https://discordbots.org/api/widget/servers/417345362496585728.svg?noavatar=true)](https://discordbots.org/bot/417345362496585728)  [![Discord Bots](https://discordbots.org/api/widget/upvotes/417345362496585728.svg?noavatar=true)](https://discordbots.org/bot/417345362496585728)  [![Discord Bots](https://discordbots.org/api/widget/lib/417345362496585728.svg?noavatar=true)](https://discordbots.org/bot/417345362496585728)  [![Discord Bots](https://discordbots.org/api/widget/owner/417345362496585728.svg)](https://discordbots.org/bot/417345362496585728)  [![Bot](https://img.shields.io/badge/DiscordBot-Yes-green.svg)](https://bot.odar.xyz)
+
+
 # Odar Disord Bot
 
 ----
@@ -84,4 +88,4 @@
 
 ## Website
 
-https://odargm.github.io/odarbotsite/
+https://bot.odar.xyz
