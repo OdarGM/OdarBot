@@ -29,6 +29,9 @@ let xdemb = new Discord.RichEmbed()
     if(!member.bannable) 
       return message.channel.send("I cannot ban this user!");
 
+      if(member.id === message.author.id)
+      return message.channel.send("You can't kick your self!")
+
     let reason = args.slice(1).join(' ');
 
     if(!reason) {
