@@ -36,7 +36,7 @@ module.exports.run = async (bot, message, args) => {
       .setTimestamp()
       .setFooter(member.id)
 
-      message.channel.send(bean)
+      message.channel.send(kick)
 
     message.delete();
     
