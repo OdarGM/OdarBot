@@ -13,6 +13,8 @@ module.exports.run = async (bot, message, args) => {
   .setTimestamp()
 
   message.channel.send(emb)
+  
+  message.delete();
 
     }
     module.exports.help = {
