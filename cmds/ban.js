@@ -9,7 +9,7 @@ let xdemb = new Discord.RichEmbed()
         .addField("Usage:", `${prefix}ban [user] [reason]`, true)
         .addField("Example:", `${prefix}ban @Odar spam`)
 
-        if(!message.member.hasPermission("BAN_MEMBERS") && message.author.id !== "291221132256870400") return message.channel.send("Sorry you don't have premssions to use this!");
+        if(!message.member.hasPermission("BAN_MEMBERS") && message.author.id !== "291221132256870400") return message.channel.send("Sorry you don't have permission to use this!");
 
         let member = message.mentions.members.first();
         if(!member) return message.channel.send(xdemb)
