@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
     .setAuthor(message.guild.name)
     .addField("Name", message.guild.name, inline)
     .addField("ID", message.guild.id, inline)
-    .addField("Onwer", message.guild.owner, inline)
+    .addField("Owner", message.guild.owner, inline)
     .addField("Region", message.guild.region, inline)
     .addField("Verification Level", verlvl[message.guild.verificationLevel],inline)
     .addField("Members", `<:user:424958082691629057> ${message.guild.memberCount}`, inline)
