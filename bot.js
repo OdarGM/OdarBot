@@ -34,7 +34,7 @@ console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.
  
 setInterval(() => {
         dbl.postStats(bot.guilds.size);
-    }, 1800000); 
+    }, 300000); 
     
 bot.user.setStatus('Online')
 
