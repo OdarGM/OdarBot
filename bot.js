@@ -32,9 +32,9 @@ fs.readdir("./cmds", (err, files) => {
 bot.on("ready", async () => {
 console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.users.size} users!`);
  
-setInterval(() => {
+/*setInterval(() => {
         dbl.postStats(bot.guilds.size);
-    }, 300000); 
+    }, 1800000); */
     
 bot.user.setStatus('Online')
 
