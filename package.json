@@ -16,11 +16,11 @@
     "fs": "0.0.1-security",
     "google-translate-api": "^2.3.0",
     "got": "^8.3.0",
-    "cows": "^1.1.0",
+    "cows": "^2.0.0",
     "cheerio": "^1.0.0-rc.2",
     "random-number": "0.0.9",
-    "imdb-api": "^3.1.2",
-    "fortnite": "^3.0.0",
+    "imdb-api": "^4.0.0",
+    "fortnite": "^4.0.0",
     "dblapi.js": "^2.0.0",
     "hoek": "^0.9.1",
     "hastebin-gen": "^1.3.1",
@@ -45,6 +45,6 @@
     "superagent-suffix": "^0.1.0",
     "weather-js": "^2.0.0",
     "ytdl": "^0.10.0",
-    "ytdl-core": "^0.20.2"
+    "ytdl-core": "^0.21.0"
   }
 }
