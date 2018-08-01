@@ -41,7 +41,7 @@
     "opusscript": "0.0.6",
     "parse-color": "^1.0.0",
     "request": "^2.85.0",
-    "snekfetch": "^3.6.4",
+    "snekfetch": "^4.0.0",
     "steamrep": "^1.0.1",
     "superagent": "^3.8.2",
     "sylphy": "^0.4.5",
