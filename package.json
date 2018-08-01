@@ -7,7 +7,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
-    "node": "10.8.0",
     "bluebird": "^3.5.1",
     "bot-emoji": "^1.0.3",
     "discord.js": "^11.3.2",
