@@ -49,6 +49,6 @@
     "superagent-suffix": "^0.1.0",
     "weather-js": "^2.0.0",
     "ytdl": "^0.10.0",
-    "ytdl-core": "^0.21.0"
+    "ytdl-core": "^0.23.0"
   }
 }
