@@ -18,7 +18,7 @@
     "giphy-api": "^1.2.7",
     "fs": "0.0.1-security",
     "google-translate-api": "^2.3.0",
-    "got": "^8.3.0",
+    "got": "^9.0.0",
     "cows": "^2.0.0",
     "cheerio": "^1.0.0-rc.2",
     "random-number": "0.0.9",
