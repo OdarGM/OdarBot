@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
     let Invite = await message.guild.channels.first().createInvite()
     let Sender = message.author;
     const sayMessage = args.join(" ");
-    if(!sayMessage) return message.reply("Please give us reason for contacting").then(msg => {msg.delete(5000)});
+    if(!sayMessage) return message.channel.send("Please give us reason for contacting").then(msg => {msg.delete(5000)});
 
    let contact = new Discord.RichEmbed()
    .setColor("00ff00")
