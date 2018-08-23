@@ -1,5 +1,6 @@
  const Discord = require("discord.js")
  const os = require('os')
+ const cpuStat = require("cpu-stat");
  
  module.exports.run = async (bot, message, args) => {
 
