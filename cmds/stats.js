@@ -28,7 +28,7 @@
              .addField("• Servers", `${bot.guilds.size.toLocaleString()}`, true)
              .addField("• Channels ", `${bot.channels.size.toLocaleString()}`, true)
              .addField("• Discord.js", `v${version}`, true)
-             .addField("• Node", `${process.version}`, true)
+            // .addField("• Node", `${process.version}`, true)
              .addField("• CPU", `\`\`\`md\n${os.cpus().map(i => `${i.model}`)[0]}\`\`\``)
              .addField("• CPU usage", `\`${percent.toFixed(2)}%\``,true)
              .addField("• Arch", `\`${os.arch()}\``,true)
