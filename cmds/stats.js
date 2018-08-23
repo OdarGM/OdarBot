@@ -28,6 +28,7 @@
              .setFooter("OdarBot stats")
      
              message.channel.send(embedStats)
+             })
 
 
  }
