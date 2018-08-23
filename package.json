@@ -20,7 +20,7 @@
     "google-translate-api": "^2.3.0",
     "got": "^9.0.0",
     "cows": "^2.0.0",
-    "cpu-stat": "2.0.1"
+    "cpu-stat": "2.0.1",
     "cheerio": "^1.0.0-rc.2",
     "random-number": "0.0.9",
     "imdb-api": "^4.0.0",
