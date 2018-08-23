@@ -39,6 +39,7 @@
     "node-emoji": "^1.8.1",
     "node-wolfram": "0.0.1",
     "opusscript": "0.0.6",
+    "os": "0.1.1",
     "parse-color": "^1.0.0",
     "request": "^2.87.0",
     "snekfetch": "^4.0.0",
