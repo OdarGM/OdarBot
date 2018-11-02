@@ -20,3 +20,4 @@
 `!lenny` **Shows lenny face** __Usage__: *!lenny*
 `!megusta` **Shows megusta** __Usage__: *!megusta* 
 `!sumfuk` **You want sum fuk?** __Usage__: * !sumfuk [@user]*
+`!kill` **Kill someone** __Usage__: *!kill [@user]*
