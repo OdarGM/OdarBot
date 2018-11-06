@@ -87,4 +87,4 @@
 
 ## Website
 
-https://bot.odar.xyz
+https://bot.odar.xyz/
