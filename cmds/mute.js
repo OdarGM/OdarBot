@@ -7,6 +7,7 @@ module.exports.run = async (bot, message, args) => {
 
   let tomute = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
   if(!tomute) return message.channel.send("Please tag user to mute!");
+  if(!message.author.hasPermission("MANAGE_MESSAGES")) return message.channel.send("Sorry, you don't have permissions to use this!");
   if(tomute.hasPermission("MANAGE_MESSAGES")) return message.channel.send("Sorry, you don't have permissions to use this!");
   if (tomute.id === message.author.id) return message.channel.send("You cannot mute yourself!");
   let muterole = message.guild.roles.find(`name`, "Odar Mute");
