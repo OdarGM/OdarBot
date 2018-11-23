@@ -6,6 +6,4 @@
 `!botinfo` **Gives the bot info** __Usage__: *!botinfo*
 `!userinfo` **Gives you the user info** __Usage__: *!userinfo [@user]*
 `!serverinfo` **Gives you the server info** __Usage__: *!serverinfo*
-`!contact` **Contact the owner for help or report bug!** __Usage__: *!finduser <problem>*
-`!contributors**Shows you the bot contributors!** __Usage__: *!contributors`
 `!finduser`  **Finds users with this name** __Usage__: *!finduser <name>*
