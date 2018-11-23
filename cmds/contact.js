@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args) => {
     return;
   } 
 
-    let Invite = await message.guild.channels.first().createInvite()
+    let Invite = await message.guild.channels.find((c) => c.type === 'text').createInvite()
     let Sender = message.author;
     const sayMessage = args.join(" ");
     if(!sayMessage) return message.channel.send("Please give us reason for contacting").then(msg => {msg.delete(5000)});
