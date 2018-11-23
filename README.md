@@ -26,12 +26,10 @@
 * `!unicode` **Gives you the symbol's unicode** _Usage_: *!unicode <symbol>*
 * `!clap` **Puts 👏 between your message** _Usage_: *!calp <text>*
 * `!flip` **Flip a text upsidedown** _Usage_: *!flip <text>*
-* `!year` **Show the info about 1 year** _Usage_: *!year*
 * `!mock` **Mocks some text** _Usage_: *!mock <text>*
 * `!urban` **Get the defintion of something** _Usage_: *!urban <word>*
 * `!translate` **Translate somthing in other languange** _Usage_: *!translate <language> <word>*
 * `!cat` **Shows a random cat pic** _Usage_: *!cat*
-* `!pi` **Show Info about Pi** _Usage_: *!pi*
 * `!rate` **Rate someone** _Usage_: *!rate <@user>*
 * `!pepe` **Shows pepe** _Usage_: *!pepe*
 * `!shrug` **Shrugs** _Usage_: *!shrug*
@@ -57,8 +55,6 @@
 * `!botinfo` **Gives the bot info** _Usage_: *!botinfo*
 * `!userinfo` **Gives you the user info** _Usage_: *!userinfo [@user]*
 * `!serverinfo` **Gives you the server info** _Usage_: *!serverinfo*
-* `!contact` **Contact the owner for help or report bug!** _Usage_: *!contact <problem>*
-* `!contributors` **Shows you the bot contributors!** _Usage_: *!contributors*
 * `!finduser`  **Finds users with this name** _Usage_: *!finduser <name>*
 * `!steamrep` **Shows Steam Rep info about user** _Usage_: *!steamrep <SteamID64>*
 * `!fortnite` **Shows Fortnite info about player** _Usage_: *!fortnite <Nickname>*
