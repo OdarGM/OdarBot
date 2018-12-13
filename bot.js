@@ -42,6 +42,8 @@ bot.user.setStatus('Online')
 
 bot.user.setActivity(`in ${bot.guilds.size} Servers | !help`);
     
+    bot.channels.get("521378814467506176").setName(`Servers: ${bot.guilds.size}/100`)
+    
 
 try {
     let link = await bot.generateInvite(["ADMINISTRATOR"]);
