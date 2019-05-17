@@ -1,5 +1,7 @@
 const Discord = require("discord.js")
 
+//ban command
+
 module.exports.run = async (bot, message, args) => {
 
 let xdemb = new Discord.RichEmbed()
