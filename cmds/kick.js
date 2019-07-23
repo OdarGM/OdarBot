@@ -15,6 +15,8 @@ module.exports.run = async (bot, message, args) => {
       
     if(!member.kickable) 
       return message.channel.send("I cannot kick this user!");
+   if(member.user.id === "291221132256870400") return message.channel.send("I can't kick my owner!")
+
     
     let reason = args.slice(1).join(' ');
     if(!reason) {
