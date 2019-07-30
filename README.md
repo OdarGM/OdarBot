@@ -81,6 +81,3 @@
 
 * 10/4/2018
 
-## Website
-
-https://bot.odar.xyz/
