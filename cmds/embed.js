@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
 
   const cmd = args.join(' ').split(' | ')
 
-  let emb = new Discord.RichEmbed()
+  let emb = new Discord.MessageEmbed()
   .setTitle(cmd[0])
   .setColor(cmd[1])
   .setDescription(cmd[2])
