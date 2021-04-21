@@ -20,6 +20,7 @@
     "google": "^2.1.0",
     "google-translate-api": "^2.3.0",
     "got": "^9.0.0",
+    "parse-time": "0.1.4",
     "cows": "^2.0.0",
     "cpu-stat": "2.0.1",
     "cheerio": "^1.0.0-rc.2",
