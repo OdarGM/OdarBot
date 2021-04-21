@@ -46,7 +46,7 @@
     "request": "^2.87.0",
     "snekfetch": "^4.0.0",
     "steamrep": "^1.0.1",
-    "superagent": "^4.0.0",
+    "superagent": "^5.0.0",
     "sylphy": "^0.4.5",
     "urban": "^0.3.1",
     "superagent-suffix": "^0.1.0",
