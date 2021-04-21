@@ -73,6 +73,8 @@
 * `!clear` **Clears the chat** _Usage_: *!clear <amount>*
 * `!warn` **Warn someone** _Usage_: *!warn <@user> <reason>*
   
+  ##HALF OF THE COMMANDS ARE OUTDATED AND NOT WORKING
+  
 #### Version
 
 *  0.2.0
